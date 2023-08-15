@@ -21,6 +21,7 @@ const en: LocaleType = {
   Chat: {
     SubTitle: (count: number) => `${count} messages`,
     EditMessage: {
+      Title: "Edit All Messages",
       Topic: {
         Title: "Topic",
         SubTitle: "Change the current topic",
@@ -170,6 +171,10 @@ const en: LocaleType = {
     SendPreviewBubble: {
       Title: "Send Preview Bubble",
       SubTitle: "Preview markdown in bubble",
+    },
+    AutoGenerateTitle: {
+      Title: "Auto Generate Title",
+      SubTitle: "Generate a suitable title based on the conversation content",
     },
     Mask: {
       Splash: {
